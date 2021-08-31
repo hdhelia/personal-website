@@ -39,13 +39,15 @@
 }
 
 .banner {
-    height: auto;
+    height: max-content;
     width: 100%;
-    background-color: lightcoral;
+    background-color: #CDE1FF;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .objective-font {
-    font-family: 'Valera Round', sans-serif;
+    font-family: cursive;
     font-size: xx-large;
     text-align: center;
     padding-top: 60px;
@@ -76,4 +78,32 @@
 .align-center {
     align-items: center;
     justify-content: center;
+}
+
+.about-me-grids {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-list {
+    list-style-type: none;
+}
+
+.about-me-list-items {
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 60px;
+    background-color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 3%;
+    margin-bottom: 5px;
+}
+
+.my-photo {
+    max-height: 400px;
+    width: auto;
+    border-radius: 80px;
+    margin: 20px;
 }
