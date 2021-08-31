@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Varela+Round&display=swap');
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container-vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.toolbar {
+    height: auto;
+    width: 100%;
+    background: blanchedalmond;
+    padding: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+.toolbar-font {
+    font-size: xxx-large;
+    font-family: 'Rampart One', cursive;
+    float: left;
+    justify-content: flex-start;
+}
+
+.social-media-icons {
+    height: 40px;
+    width: auto;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.banner {
+    height: auto;
+    width: 100%;
+    background-color: lightcoral;
+}
+
+.objective-font {
+    font-family: 'Valera Round', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.sidebar-menu-font {
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.sidebar-item {
+    padding: 10px;
+}
+
+.sidebar-item:hover {
+    color: lightcoral;
+    background: blanchedalmond;
+    width: 100%;
+}
+
+.sidebar-image {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+    justify-content: center;
+}
