@@ -2,11 +2,7 @@
 
 .flex-container {
     display: flex;
-}
-
-.flex-container-vertical {
-    display: flex;
-    flex-direction: column;
+    width: 100%;
 }
 
 .flex-wrap {
@@ -22,6 +18,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     border-bottom: 2px solid black;
+    position: sticky;
+    top: 0;
 }
 
 .toolbar-font {
@@ -50,10 +48,15 @@
     font-family: cursive;
     font-size: xx-large;
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.sidebar {
+    /* position: fixed;
+    z-index: 1; */
 }
 
 .sidebar-menu-font {
@@ -63,6 +66,8 @@
 
 .sidebar-item {
     padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .sidebar-item:hover {
@@ -78,6 +83,10 @@
 .align-center {
     align-items: center;
     justify-content: center;
+}
+
+.all-content {
+    width: 100%;
 }
 
 .about-me-grids {
@@ -102,8 +111,25 @@
 }
 
 .my-photo {
-    max-height: 400px;
+    max-height: 450px;
     width: auto;
-    border-radius: 80px;
-    margin: 20px;
+}
+
+a {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+.umass-banner {
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.umass-img {
+    object-fit: contain;
+    border: 2px solid black;
+    padding: 10px;
 }
