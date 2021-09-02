@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Dancing+Script&family=Varela+Round&display=swap');
 
 .additional-info {
     width: 100%;
@@ -13,6 +13,11 @@
 .flex-container {
     display: flex;
     flex-wrap: wrap;
+}
+
+.flex-container-vertical {
+    display: flex;
+    flex-direction: column;
 }
 
 .flex-wrap {
@@ -62,6 +67,7 @@
     padding-bottom: 40px;
     padding-left: 30px;
     padding-right: 30px;
+    font-weight: bold;
 }
 
 .sidebar {
@@ -143,7 +149,7 @@ a {
     font-style: italic;
 }
 
-.umass-gpa {
+.umass-content-font {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: large;
 }
@@ -166,3 +172,106 @@ a {
     float: left;
     color: gold;
 } 
+
+.experience-banner {
+    background-color: #CDE1FF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.job-header {
+    font-family: 'Varela Round', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.job-place-header {
+    font-family: 'Dancing Script', Times, serif;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.accordion {
+    border-radius: 10px;
+}
+
+.accordion-button {
+    justify-content: space-between;
+    align-items: unset !important;
+    position: unset !important;
+}
+
+.accordion-button::after {
+    content: unset !important;
+}
+
+.accordion-button:focus {
+    box-shadow: unset !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black !important;
+    background-color: blanchedalmond !important;
+}
+
+.work-font {
+    font-size: xx-large;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.highlight-text {
+    color: maroon;
+}
+
+.job-description-font {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.company-image {
+    object-fit: contain;
+    max-height: 200px;
+    background-color: black;
+    justify-content: center;
+    align-self: center;
+}
+
+.company-image-back-white {
+    object-fit: contain;
+    max-height: 200px;
+    justify-content: center;
+    align-self: center;
+}
+
+.work-location {
+    justify-content: center;
+    align-items: center;
+}
+
+.work-location-icon {
+    max-height: 30px;
+    width: auto;
+}
+
+.work-location-font {
+    font-size: x-large;
+    font-family: monospace;
+    margin-left: 5px;
+}
+
+.work-link-font {
+    font-size: x-large;
+    font-family: monospace;
+    margin-left: 5px;
+}
+
+.work-link-font:hover {
+    color: blue !important;
+}
